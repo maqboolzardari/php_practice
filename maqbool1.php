@@ -17,25 +17,18 @@
             var_dump($x);
             echo "<br />";
         }
-        #br();
         echo "<br />";
         $b = 67;
-        #echo "String: " . $b . var_dump($b);
         br($b);
         $c = 45.23;
-        #var_dump($c);
         br($c);
         $d = array ("Shahbaz" , "Mohsin" , "Maqbool");
-        #var_dump($d);
         br($d);
         $f = array (123 , 13.24 , "Maqbool");
-        #var_dump($f);
         br($f);
         $e = "hello world";  
-        #var_dump($e);
         br($e);
         $g = null;  
-        #var_dump($g);
         br($g);
     ?>
 </body>
